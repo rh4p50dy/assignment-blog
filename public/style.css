@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.post {
+    margin-top: 30px;
+}
+.post-title{
+    margin: 5px 0;
+}
+
+.post-des {
+    margin-left: 40px;
+}
+nav {
+    margin: 20px;
+}
+nav ul{
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
